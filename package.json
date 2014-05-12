@@ -1,0 +1,32 @@
+{
+  "name": "gulp-estarify",
+  "description": "es-tar plugin for gulp",
+  "version": "0.0.1",
+  "author": "nbqx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nbqx/gulp-estarify.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "adobe",
+    "extendscript"
+  ],
+  "homepage": "https://github.com/nbqx/gulp-estarify",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^0.4.1",
+    "es-tar": "0.0.4",
+    "gulp-util": "^2.2.14",
+    "lodash.defaults": "^2.4.1"
+  },
+  "devDependencies": {
+    "tape": "^2.12.3",
+    "gulp": "^3.6.2"
+  }
+}
